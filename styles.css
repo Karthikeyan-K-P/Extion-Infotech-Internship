@@ -1,0 +1,24 @@
+body {
+    font-size: 18px;
+    font-style:italic;
+    background-image: url(cloud\ bg.jpg);
+    background-size: cover; /* This will ensure the image covers the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+}
+p{
+    text-align: justify;
+}
+
+h3{
+    color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: size 20px;
+}
+
+
+img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    border-radius:30%;
+}

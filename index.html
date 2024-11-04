@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS - Static Website</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style>
+        body {
+            color: black; /* Text color */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family */
+            margin: 5px;/* Remove default margin */
+            padding: 10px; /* Remove default padding */
+        }
+        .image-link{
+            display:inline-block;
+            position: relative;
+        }
+        .image-link img{
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .image-link:hover img{
+            transform:scale(1.1);
+            opacity:0.8;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud Computing</h1>
+    </header>
+<section id="csp">
+        <p>Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider</p>
+    </section>
+ 
+        <h2>Cloud Service Providers</h2>
+        <div>
+            <h3>Amazon Web Services</h3>
+            <p><b>Overview:</b> AWS is the cloud computing platform offered by Amazon. It is the largest and most widely adopted cloud platform globally, offering over 200 fully featured services from data centers worldwide.</p>
+                <b>Key Services:</b> Compute (EC2), Storage (S3), Databases (RDS), Machine Learning (SageMaker), Analytics (Redshift), Networking (VPC), and Serverless Computing (Lambda).</p>
+                <b>Strengths:</b> Extensive global infrastructure, vast range of services, strong security features, and a large ecosystem of partners and third-party integrations.</p>
+            <a href="https://aws.amazon.com" class="image-link">
+            <img src="AWS.jpg"/>
+            </a>
+        </div>
+        <div>
+            <h3>Microsoft Azure</h3>
+            <p><b>Overview:</b> Azure is Microsoft’s cloud computing service. It provides a wide range of cloud services, including those for computing, analytics, storage, and networking.</p>
+                <b>Key Services:</b> Compute (Azure Virtual Machines), Storage (Blob Storage), Databases (Azure SQL Database), Machine Learning (Azure Machine Learning), Analytics (Azure Synapse Analytics), Networking (Virtual Network), and Serverless Computing (Azure Functions).</p>
+                <b>Strengths:</b> Strong integration with Microsoft products (Windows Server, Active Directory, Office 365), robust enterprise capabilities, hybrid cloud solutions, and a broad set of compliance certifications.</p>
+            <a href="https://azure.microsoft.com" class="image-link">
+            <img src="Azure.jpg"/>
+            </a>
+        </div>
+       <div>
+            <h3>Google Cloud</h3>
+            <p><b>Overview:</b> GCP is Google’s suite of cloud computing services. It offers a range of modular cloud services including computing, data storage, data analytics, and machine learning.</p>
+                <b>Key Services:</b> Compute (Compute Engine), Storage (Cloud Storage), Databases (Cloud SQL), Machine Learning (AI Platform), Analytics (BigQuery), Networking (VPC), and Serverless Computing (Cloud Functions).</p>
+                <b>Strengths:</b> Strong capabilities in data analytics and machine learning, advanced networking technologies, competitive pricing, and integration with Google services and tools.</p>
+            <a href="https://cloud.google.com" class="image-link">
+            <img src="Google-Cloud.jpg"/>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
